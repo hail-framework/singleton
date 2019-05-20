@@ -1,0 +1,32 @@
+{
+  "name": "hail/singleton",
+  "description": "Singleton pattern",
+  "type": "library",
+  "keywords": ["hail", "framework", "singleton"],
+  "homepage": "http://framework.flyinghail.com/",
+  "support": {
+    "issues": "https://github.com/hail-framework/singleton/issues",
+    "source": "https://github.com/hail-framework/singleton"
+  },
+  "authors": [
+    {
+      "name": "Feng Hao",
+      "email": "flyinghail@msn.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Hail\\Singleton\\": "src/"
+    }
+  },
+  "license": "MIT",
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/hail-framework/singleton.git"
+    }
+  ],
+  "require": {
+    "php": ">=7.1.3"
+  }
+}
