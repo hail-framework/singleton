@@ -29,7 +29,7 @@ trait SingletonTrait
     {
     }
 
-    final public function __wakeup(): void
+    final public function __wakeup()
     {
     }
 
