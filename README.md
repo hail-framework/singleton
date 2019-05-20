@@ -1,6 +1,7 @@
 # Singleton
+Singleton pattern for PHP
 
-## Example
+# Example
 ```php
 class Example
 {
