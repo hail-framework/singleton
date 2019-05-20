@@ -1,6 +1,6 @@
 # Singleton
 
-# Example
+## Example
 ```php
 class Example
 {
