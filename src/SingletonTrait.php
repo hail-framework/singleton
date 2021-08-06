@@ -4,20 +4,20 @@ namespace Hail\Singleton;
 
 trait SingletonTrait
 {
+    /**
+     * @var static
+     */
     protected static $instance;
 
-    /**
-     * @return static
-     */
-    final public static function getInstance()
+    final public static function getInstance(): static
     {
-        return static::$instance[static::class] ?? (static::$instance[static::class] = new static);
+        return static::$instance[static::class] ??= new static;
     }
 
     /**
      * Singleton constructor.
      */
-    final private function __construct()
+    final public function __construct()
     {
         $this->init();
     }
@@ -33,7 +33,7 @@ trait SingletonTrait
     {
     }
 
-    final private function __clone()
+    final public function __clone()
     {
     }
 }
